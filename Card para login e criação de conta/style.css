@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9ab3fb;
+}
+
+#contL {
+    width: 25rem;
+    height: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1fc73;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    transition: all 1s;
+    position: absolute;
+}
+
+
+
+form {
+    display: flex;
+    width: 25rem;
+    height: 13rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e1fc73;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transition: all 1s;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #056750;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #057f62;
+}
+
+a {
+    text-decoration: none;
+    color: #6188fd;
+}
+
+/* card de criação de conta*/
+
+#contCreate {
+    width: 22rem;
+    height: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1fc73;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    transition: all 1s;
+    display: flex;
+    position: absolute;
+}
+
+#formCreate {
+
+    width: 25rem;
+    height: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e1fc73;
+    visibility: collapse;
+    opacity: 0;
+    transition: all 1s;
+}
