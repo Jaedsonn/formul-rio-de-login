@@ -16,7 +16,7 @@ body {
 }
 
 #contL {
-    width: 25rem;
+    width: 24rem;
     height: 19rem;
     display: flex;
     align-items: center;
@@ -42,9 +42,10 @@ form {
     background-color: #e1fc73;
 }
 
-input[type="email"],
+input[type="text"],
 input[type="password"],
-input[type="submit"] {
+input[type="submit"],
+input[type="email"] {
     width: 300px;
     height: 40px;
     padding: 10px;
@@ -89,7 +90,6 @@ a {
 }
 
 #formCreate {
-
     width: 25rem;
     height: 0;
     flex-direction: column;
